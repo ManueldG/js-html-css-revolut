@@ -1,0 +1,32 @@
+nav {
+    display: inline-flex;
+    justify-content:space-between;
+    width: 100vw;        
+}
+
+.menucentrale ul,.menudestra ul, .bottoni ul{
+    display: flex;
+    justify-content:space-around;
+    flex-wrap: nowrap;
+}
+
+.menucentrale ul li , .menudestra ul li, .bottoni ul li, .logo{
+    margin: 5px;
+}
+
+.change{
+    display: none;
+    position: absolute;
+    width: 200px;
+    padding: 5px;
+    top: 30px;
+    
+    border: 1px solid rgba(0, 0, 0, 0.568);
+    border-radius: 6px;
+    box-shadow: 0 8px 7px rgba(17, 17, 17, 0.37);    
+    
+}
+
+.active, .activeC {
+    display: block;
+}
